@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(119, 169, 147);
+}
+
+h1 {
+    height: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: dashed 2px black;
+}
+
+#checkerboard {
+    height: 800px;
+    width: 800px;
+    display: flex;
+    margin-top: 14px;
+    border: 20px solid saddlebrown;
+    display: flex;
+    margin: auto;
+}
+.row {
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.black {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.white {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+@media (min-width: 150px) and (max-width: 500px) {
+    #checkerboard {
+        height: 280px;
+        width: 280px;
+        border: 10px solid saddlebrown;
+    }
+    
+    .black {
+        width: 35px;
+        height: 35px;
+    }
+
+    .white {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 800px)  {
+    #checkerboard  {
+        height: 480px;
+        width: 480px;
+    }
+    
+    .black {
+        height: 60px;
+        width: 60px;
+    }
+
+    .white {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1300px) {
+    #checkerboard {
+        height: 1000px;
+        width: 1000px;
+    }
+
+    .black {
+        height: 125px;
+        width: 125px;
+    }
+
+    .white{
+        height: 125px;
+        width: 125px;
+    }
+}

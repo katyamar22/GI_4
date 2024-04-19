@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFBFF;
+}
+
+header {
+    font-family: 'CF Metro Parisien', sans-serif;
+    color: #99C1B9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(3, 150px);
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.page {
+    background-color: #99C1B9;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #8E7DBE;
+    justify-content: center;
+    font-size: 2em;
+}
+
+a:hover {
+    background-color: #bfb7d3;
+}
